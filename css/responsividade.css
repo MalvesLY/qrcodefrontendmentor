@@ -1,0 +1,22 @@
+@media screen and (max-width: 800px) and (orientation: portrait){
+    .conteudo {
+        width: 50vw;
+        position: absolute;
+        top: calc(50% - 22vh);
+        left: calc(50% - 25vw);
+    }
+}
+@media screen and (max-width: 900px) and (orientation: landscape) {
+    .conteudo {
+        width: 25vw;
+        position: absolute;
+        top: calc(50% - 50vh);
+        left: calc(50% - 12.5vw);
+    }
+    .conteudo #texto .primeiro_texto {
+        font-size: 0.9em;
+    }
+    .conteudo #texto .segundo_texto {
+        font-size: 0.9em;
+    }
+}

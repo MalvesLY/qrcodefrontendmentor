@@ -1,0 +1,42 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+}
+.conteudo { 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 20vw;
+    border-radius: 13px;
+    position: absolute;
+    top: calc(50% - 34vh);
+    left: calc(50% - 10vw);
+}
+.conteudo #imagem img {
+    padding: 5%;
+    border-radius: 10%;
+    width: 100%;
+    transition: 0.9s all ease-in-out;
+}
+.conteudo #imagem img:hover {
+    transform: scale(1.04)
+}
+.conteudo #texto .primeiro_texto {
+    padding: 0% 5% 5%;
+    font: 700 1em Outfit;
+    text-align: center;
+
+}
+.conteudo #texto .segundo_texto {
+    padding-bottom: 5%;
+    font: 400 1em Outfit;
+    text-align: center;
+}
+.atribuicao {
+    display: flex;
+    font: 400 0.6em Outfit;
+    position: absolute;
+    right: 1vw;
+    bottom: 1vh;
+    flex-direction: column;   
+}
